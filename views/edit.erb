@@ -1,0 +1,10 @@
+<h1>edit page</h1>
+
+<form action="/videos/<%= @video['id'] %>" method="POST">
+	<input type="varchar" name="title" value="<%= @video['title'] %>">
+	<input type="text" name="description" value="<%= @video['description'] %>">
+	<input type="varchar" name="url" value="<%= @video['url'] %>">
+	<input type="varchar" name="genre" value="<%= @video['genre'] %>">
+
+	<button>Save</button>
+</form>
