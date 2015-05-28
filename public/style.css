@@ -1,0 +1,22 @@
+body {
+	font-family: helvetica;
+	text-align: left;
+	color: black;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: helvetica;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+
+
+}
+
+li {
+	list-style-type: none;
+}

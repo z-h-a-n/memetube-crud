@@ -2,13 +2,10 @@
 <p><%= @video['description'] %></p>
 
 <p> 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/<%= @video['url'] %>" frameborder="0" allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/<%= @video['url'] %>" width="1000" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
 </p>
-
-<iframe src="https://player.vimeo.com/video/98965114" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-
-<p><a href="https://vimeo.com/98965114">A Shared Moon Dream - The 2028 Lunar Mineral Parade</a> from <a href="https://vimeo.com/user15759460">zhan wang</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
 
 <p><%= @video['genre'] %></p>
 
